@@ -73,8 +73,7 @@
 The most time-consuming aspect of this assignment involved debugging specific Leaflet.js integration challenges within
 the Vue 3 Composition API environment. Key difficulties included:
 
-* Ensuring the UGV marker's position (`latLng`) and rotation (`rotationAngle`) updated reactively and reliably on the
-  map, especially during rapid updates from the movement loop (requiring manual `setLatLng` calls).
+* Ensuring the UGV marker's position (`latLng`) and rotation (`rotationAngle`) updated reactively and reliably.
 * Correctly implementing the coordinate system logic for movement (e.g., mapping heading angle to `deltaLat`/`deltaLng`
   and applying latitude correction for consistent perceived speed).
 * Handling map focus issues after user interaction (like panning) to ensure keyboard controls remained active.
